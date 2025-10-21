@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/DigitalRoot.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/DigitalRoot.java" />
+              <option name="originalContent" value="import java.util.Scanner;&#10;&#10;public class DigitalRoot {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        System.out.print(&quot;Enter a non-negative integer: &quot;);&#10;        int n = scanner.nextInt();&#10;&#10;        int digitalRoot = n;&#10;        while (digitalRoot &gt;= 10) {&#10;            int sum = 0;&#10;            while (digitalRoot &gt; 0) {&#10;                sum += digitalRoot % 10;&#10;                digitalRoot /= 10;&#10;            }&#10;            digitalRoot = sum;&#10;        }&#10;&#10;        System.out.println(&quot;The digital root of &quot; + n + &quot; is &quot; + digitalRoot);&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="import java.util.Scanner;&#10;&#10;public class DigitalRoot {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        System.out.print(&quot;Enter a non-negative integer: &quot;);&#10;        int n = scanner.nextInt();&#10;&#10;        int digitalRoot = n;&#10;        while (digitalRoot &gt;= 10) {&#10;            int sum = 0;&#10;            while (digitalRoot &gt; 0) {&#10;                sum += digitalRoot % 10;&#10;                digitalRoot /= 10;&#10;            }&#10;            digitalRoot = sum;&#10;        }&#10;&#10;        System.out.println(&quot;The digital root of &quot; + n + &quot; is &quot; + digitalRoot);&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
